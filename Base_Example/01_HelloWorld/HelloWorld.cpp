@@ -1,5 +1,5 @@
-//Minimal Example Hello World With LibRT on Cwc to build portable app
-#include <LibRT.h>
+//Minimal Example Hello World With GZE on Cwc to build portable app
+#include <GZE.h>
 #include <Main>
 
 gzInt Main(gzText8 _sArg, gzUIntX _nId, gzInt _nCmd){
