@@ -8,8 +8,10 @@ gzString<gzUTF8> fStringPassInFunction(const gzStr& _sParam );
 gzInt Main(gzText8 _sArg, gzUIntX _nId, gzInt _nCmd){
 	
 	//// Call Emsc function to set source code URL  ///
-	val window = val::global("window");
-    window.call<void>("SetLinkSrcCode", val("<a href='https://github.com/Maeiky/Cwc_Demos/blob/master/Base_Example/02_String/String.cpp'>View Code</a>"));
+	#if defined tPlatform_Web_Emsc
+		val window = val::global("window");
+		window.call<void>("SetLinkSrcCode", val("<a href='https://github.com/Maeiky/Cwc_Demos/blob/master/Base_Example/02_String/String.cpp'>View Code</a>"));
+	#endif
 	//////////////////////////////////////////////////
 	
 	{
