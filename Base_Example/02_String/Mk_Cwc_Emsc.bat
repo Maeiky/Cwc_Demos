@@ -1,13 +1,13 @@
 @echo off
 Rem /------- Find Cwc ---------/
 set cwc=cwc
-if exist ..\..\..\..\..\..\Cwc\cwc.exe  set cwc=..\..\..\..\..\..\Cwc\cwc.exe
-if exist ..\..\..\..\..\Cwc\cwc.exe     set cwc=..\..\..\..\..\Cwc\cwc.exe
-if exist ..\..\..\..\Cwc\cwc.exe        set cwc=..\..\..\..\Cwc\cwc.exe
-if exist ..\..\..\Cwc\cwc.exe           set cwc=..\..\..\Cwc\cwc.exe
-if exist ..\..\Cwc\cwc.exe              set cwc=..\..\Cwc\cwc.exe
-if exist ..\Cwc\cwc.exe                 set cwc=..\Cwc\cwc.exe
-if exist Cwc\cwc.exe                    set cwc=Cwc\cwc.exe
+if exist ..\..\..\..\..\..\cwc.exe  set cwc=..\..\..\..\..\..\cwc.exe
+if exist ..\..\..\..\..\cwc.exe     set cwc=..\..\..\..\..\cwc.exe
+if exist ..\..\..\..\cwc.exe        set cwc=..\..\..\..\cwc.exe
+if exist ..\..\..\cwc.exe           set cwc=..\..\..\cwc.exe
+if exist ..\..\cwc.exe              set cwc=..\..\cwc.exe
+if exist ..\cwc.exe                 set cwc=..\cwc.exe
+if exist cwc.exe                    set cwc=cwc.exe
 Rem /--------------------------/
 
 Rem /-------------------Start----------------------/
